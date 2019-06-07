@@ -1,0 +1,50 @@
+.n-text {
+  font-size: 1.1em;
+  color: #333333;
+  font-weight: bold;
+
+}
+
+.carousel-inner {
+  background-image: url(../img/bg-graduation.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.carousel-inner img {
+  width: 50%;
+  height: 100vh;
+  justify-content: center;
+  transform: translateX(50%);
+}
+
+footer p {
+text-align: center;
+margin: 0;
+padding: 0;
+}
+
+.pengumuman {
+  margin-right: 1em;
+}
+
+.days {
+  font-size: 0.8em;
+  margin-top: 0.2em;
+}
+
+.border-bottom p {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+@media (max-width: 760px) {
+  .carousel-inner img {
+    width: 100vw;
+    height: 100vh;
+    transform: translateX(0);
+  }
+}
